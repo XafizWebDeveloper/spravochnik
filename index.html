@@ -6,6 +6,14 @@
     <title>Справочник</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- Yandex reklama boshlanishi:-->
+    <!-- Yandex.RTB -->
+    <script>
+      window.yaContextCb = window.yaContextCb || [];
+    </script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+    <!-- Yandex reklama boshlanishi:-->
   </head>
   <body>
     <!--START PAGE-->
@@ -415,8 +423,6 @@
           <td>"Прокат стол"</td>
           <td>97-578-50-77</td>
         </tr>-->
-
-          
         </tbody>
       </table>
 
@@ -435,19 +441,31 @@
 
       <!--END MAIN-->
 
-      
       <!--START FOOTER-->
-      <footer></footer>
+      <footer>
+        <div>
+          <!-- Ёщё добавиться контент-->
+        </div>
+
+        <div class="reklama">
+          <!-- Yandex REKLAMA BOSHLANISHI-->
+          <!-- Yandex.RTB R-A-13349188-1 -->
+          <div id="yandex_rtb_R-A-13349188-1"></div>
+          <script>
+            window.yaContextCb.push(() => {
+              Ya.Context.AdvManager.render({
+                blockId: "R-A-13349188-1",
+                renderTo: "yandex_rtb_R-A-13349188-1",
+              });
+            });
+          </script>
+          <!-- Yandex REKLAMA TUGASHI-->
+        </div>
+      </footer>
       <!--END FOOTER-->
     </div>
     <!--END PAGE-->
 
-<div class="reklama">
-        <!-- Yandex REKLAMA BOSHLANISHI-->
-
-        <!-- Yandex REKLAMA TUGASHI-->
-      </div>
-      
     <script src="app.js"></script>
   </body>
 </html>
