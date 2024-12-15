@@ -1,0 +1,28 @@
+.page {
+  padding: 10px;
+  margin: 10px;
+}
+
+.list-group-item {
+  word-break: break-word; /* Узун сўзларни бўлиб қўйиш */
+  white-space: normal; /* Матнни бир қаторга сиғдириш */
+  text-align: left; /* Матн чап томонга текшиллаш */
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+}
+
+table {
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.abzas {
+  text-decoration-style: none;
+}
