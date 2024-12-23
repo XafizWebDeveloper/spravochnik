@@ -32,3 +32,15 @@ p {
 font-family: 'Roboto', sans-serif;
 border: solid 1px rgb(85, 238, 20);
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
